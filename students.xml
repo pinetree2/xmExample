@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+    <student>
+        <name>Jieun Park</name>
+        <student_id>201406253</student_id>
+    </student>
+ 
+    <student>
+        <name>John Doe</name>
+        <student_id>201304238</student_id>
+    </student>
+ 
+    <student>
+        <name>Jane Doe</name>
+        <student_id>201304238</student_id>
+    </student>
+</students>

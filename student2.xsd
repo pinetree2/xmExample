@@ -1,0 +1,27 @@
+<xs:schema
+    attributeFormDefault="unqualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified" >
+  <xs:element name="class">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="student" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+              <xs:attribute name ="firstname" type = "xs:string"></xs:attribute>
+              <xs:attribute name = "lastname" type = "xs:string"></xs:attribute>
+              <xs:attribute name = "nickname" type = "xs:string"></xs:attribute>
+              <xs:attribute name = "age" type = "xs:int"></xs:attribute>
+              <xs:attribute name = "gender" >
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                  <xs:pattern value="F|M"/>
+                  </xs:restriction>
+                  </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name = "birth" type = "xs:date"></xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

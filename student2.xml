@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://127.0.0.1:5500/student.xsl"?>
+
+<class
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" 
+xs:noNamespaceSchemaLocation="student2.xsd">
+    <student firstname="gildong" lastname="Song" nickname="test1" age='16' gender="F" birth="2001-05-05"></student>
+    <student firstname="gildong2" lastname="Hong" nickname="test2" age='20' gender="M" birth="1999-03-15"></student>
+    <student firstname="gildong3" lastname="Gang" nickname="test3" age='25' gender="F" birth="1998-11-05"></student>
+</class>

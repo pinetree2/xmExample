@@ -13,6 +13,7 @@ xsi:noNamespaceSchemaLocation="student.xsd">
         <gender>F</gender>
         <birth>2001-01-01</birth>
     </student>
+
     <student>
         <firstname>gildong</firstname>
         <lastname>Hong</lastname>
@@ -21,6 +22,7 @@ xsi:noNamespaceSchemaLocation="student.xsd">
         <gender>M</gender>
         <birth>2001-01-03</birth>
     </student>
+    
     <student>
         <firstname>gildong</firstname>
         <lastname>Hong</lastname>

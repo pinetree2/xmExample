@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" doctype-system="about:legacy-compat"/>
-    <xsl:template match="/">
+    <xsl:template match="/class">
     <html>
         <head>
             <meta charset="utf-8"/>
@@ -19,13 +19,24 @@
                 <thead>
                     <tr>
                         <th>이름</th>
-                        <th>학번</th>
+                        <th>성</th>
+                        <th>닉네임</th>
+                        <th>나이</th>
+                        <th>성별</th>
+                        <th>생일</th>
+
                     </tr>
                 </thead>
-                <xsl:for-each select="/students/student">
+                <xsl:for-each select="/class/student">
                     <tr>
-                        <td><xsl:value-of select="name"/></td> <!-- Attribute는 @을 앞에 붙이세요.-->
-                        <td><xsl:value-of select="student_id"/></td>
+                         <!-- Attribute는 @을 앞에 붙이세요.-->
+                        <td><xsl:value-of select = "firstname"></xsl:value-of></td>
+                        <td><xsl:value-of select = "lastname"></xsl:value-of></td>
+                        <td><xsl:value-of select = "nickname"></xsl:value-of></td>
+                        <td><xsl:value-of select = "age"></xsl:value-of></td>
+                        <td><xsl:value-of select = "gender"></xsl:value-of></td>
+                        <td><xsl:value-of select = "birth"></xsl:value-of></td>
+
                     </tr>
                 </xsl:for-each>
             </table>

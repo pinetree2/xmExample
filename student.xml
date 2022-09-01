@@ -15,8 +15,8 @@ xsi:noNamespaceSchemaLocation="student.xsd">
     </student>
 
     <student>
-        <firstname>gildong</firstname>
-        <lastname>Hong</lastname>
+        <firstname>gildong1</firstname>
+        <lastname>Hong2</lastname>
         <nickname>test2</nickname>
         <age>16</age>
         <gender>M</gender>
@@ -24,8 +24,8 @@ xsi:noNamespaceSchemaLocation="student.xsd">
     </student>
     
     <student>
-        <firstname>gildong</firstname>
-        <lastname>Hong</lastname>
+        <firstname>gildong3</firstname>
+        <lastname>Hong3</lastname>
         <nickname>test3</nickname>
         <age>17</age>
         <gender>M</gender>

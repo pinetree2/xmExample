@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="http://127.0.0.1:5500/A.xsl"?>
 
-<class
+<students
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="student.xsd">
 
@@ -31,4 +31,4 @@ xsi:noNamespaceSchemaLocation="student.xsd">
         <gender>M</gender>
         <birth>2001-01-02</birth>
     </student>
-</class>
+</students>

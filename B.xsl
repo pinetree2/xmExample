@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" doctype-system="about:legacy-compat"/>
-    <xsl:template match="/class">
+    <xsl:template match="/students">
     <html>
         <head>
             <meta charset="utf-8"/>
@@ -27,7 +27,7 @@
 
                     </tr>
                 </thead>
-                <xsl:for-each select="/class/student">
+                <xsl:for-each select="/students/student">
                     <tr>
                          <!-- Attribute는 @을 앞에 붙이세요.-->
                         <td><xsl:value-of select = "firstname"></xsl:value-of></td>

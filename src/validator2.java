@@ -1,6 +1,6 @@
-package example;
-import java.io.*;
 
+import java.io.*
+;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.*;
